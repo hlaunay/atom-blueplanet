@@ -1,4 +1,4 @@
-# atom-blueplanet [![Build Status](https://secure.travis-ci.org/hLaunay/atom-blueplanet.png?branch=master)](http://travis-ci.org/hLaunay/atom-blueplanet)
+# atom-blueplanet [![Build Status](https://travis-ci.org/hlaunay/atom-blueplanet.svg?branch=master)](https://travis-ci.org/hlaunay/atom-blueplanet)
 
 Atom package for blueplanet development
 

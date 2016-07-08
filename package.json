@@ -1,7 +1,7 @@
 {
     "name": "atom-blueplanet",
-    "main": "./lib/atom-blueplanet",
-    "version": "0.0.1",
+    "main": "./index",
+    "version": "0.0.0",
     "description": "Atom package for blueplanet development",
     "license": "MIT",
     "private": true,

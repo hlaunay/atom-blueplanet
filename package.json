@@ -1,13 +1,13 @@
 {
-    "name": "atom-blueplanet",
-    "main": "./index",
-    "version": "0.0.0",
-    "description": "Atom package for blueplanet development",
-    "license": "MIT",
-    "private": true,
-    "repository": "https://github.com/hLaunay/atom-blueplanet",
-    "engines": {
-        "atom": ">0.61.0"
-    },
-    "dependencies": {}
+  "name": "atom-blueplanet",
+  "main": "./index",
+  "version": "1.0.0",
+  "description": "Atom package for blueplanet development",
+  "license": "MIT",
+  "private": true,
+  "repository": "https://github.com/hLaunay/atom-blueplanet",
+  "engines": {
+    "atom": ">0.61.0"
+  },
+  "dependencies": {}
 }

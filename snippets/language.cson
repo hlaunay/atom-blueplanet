@@ -1,0 +1,31 @@
+'.source.json':
+  'Bpprov command file':
+    'prefix': 'bpcom'
+    'body': """
+      {
+          "endpoint": "${1:<endpoint>}",
+          "type": "${2:<runner>}",
+          "endpoint-parameters": {
+              "command": "${3:<command text>}"
+          },
+          "out-path": [{
+              "type": "${4:<translator>}"
+          }],
+          "in-schema": "$5in-show-device.json",
+          "in-path": [{
+              "type": "${6:<translator>}"
+          }],
+          "test": [
+            "commands/tests/test-$1.json"
+          ]
+      }
+      """
+  'Bpprov runner simple event':
+    'prefix': 'bprunse'
+    'body': 'bpprov.runners.simple.Event'
+  'Bpprov runner simple Sequence':
+    'prefix': 'bprunss'
+    'body': 'bpprov.runners.simple.Sequence'
+  'Bpprov runner simple Python Sequence':
+    'prefix': 'bprunpse'
+    'body': 'bpprov.runners.simplepy.PySequence'
